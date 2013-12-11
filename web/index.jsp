@@ -40,25 +40,24 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="#">Project name</a>
+                            <a class="navbar-brand" href="#">Los Vengadores</a>
                         </div>
                         <div class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
                                 <li class="active"><a href="#">Home</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#contact">Contact</a></li>
                                 <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Equipo <b class="caret"></b></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li class="divider"></li>
-                                        <li class="dropdown-header">Nav header</li>
-                                        <li><a href="#">Separated link</a></li>
-                                        <li><a href="#">One more separated link</a></li>
+                                        <li><a href="#">Iron man</a></li>
+                                        <li><a href="#">La viuda negra</a></li>
+                                        <li><a href="#">Hulk</a></li>
+                                        <li><a href="#">Ojo de alcón</a></li>
+                                        <li><a href="#">Thor</a></li>
                                     </ul>
                                 </li>
+                                <li><a href="#about">Acerca de</a></li>
+                                <li><a href="#contact">Contacto</a></li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -78,8 +77,8 @@
                 <li data-target="#myCarousel" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="item active">
-                    <img src="img/descarga (2).png" alt="First slide">
+                <div class="item active e">
+                    
                     <div class="container">
                         <div class="carousel-caption">
                             <h1>Example headline.</h1>
@@ -90,8 +89,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="item">
-                    <img src="img/descarga (1).png" alt="Second slide">
+                <div class="item r">
+                    
                     <div class="container">
                         <div class="carousel-caption">
                             <h1>Another example headline.</h1>
@@ -100,8 +99,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="item">
-                    <img src="./img/descarga.png" alt="Third slide">
+                <div class="item d">
+                    
                     <div class="container">
                         <div class="carousel-caption">
                             <h1>One more for good measure.</h1>
@@ -125,15 +124,27 @@
                         <h4 class="modal-title" id="myModalLabel">Modal title</h4>
                     </div>
                     <div class="modal-body">
-                        <form class="form-signin" role="form">
-                            <h2 class="form-signin-heading">Please sign in</h2>
-                            <input type="text" class="form-control" placeholder="Email address" required="" autofocus="">
-                            <input type="password" class="form-control" placeholder="Password" required="">
-                            <label class="checkbox">
-                                <input type="checkbox" value="remember-me"> Remember me
-                            </label>
-                            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-                        </form>
+                        <form role="form">
+  <fieldset>
+    <div class="form-group">
+      <label for="disabledTextInput">Campo deshabilitado</label>
+      <input type="text" id="campoDeshabilitado" class="form-control" 
+             placeholder="Campo deshabilitado">
+    </div>
+    <div class="form-group">
+      <label for="listaDeshabilitada">Lista deshabilitada</label>
+      <select id="listaDeshabilitada" class="form-control">
+        <option>Lista deshabilitada</option>
+      </select>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox"> No puedes pinchar esta opción
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </fieldset>
+</form>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -154,68 +165,24 @@
             <!-- Three columns of text below the carousel -->
             <div class="row">
                 <div class="col-lg-4">
-                    <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
+                    <img class="img-circle" src="./img/10223269.jpg" alt="Generic placeholder image">
                     <h2>Heading</h2>
                     <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
                     <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
+                    <img class="img-circle" src="./img/scarlett.jpg" alt="Generic placeholder image">
                     <h2>Heading</h2>
                     <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
                     <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
+                    <img class="img-circle" src="./img/thor2.png" alt="Generic placeholder image">
                     <h2>Heading</h2>
                     <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
                     <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
             </div><!-- /.row -->
-
-
-            <!-- START THE FEATURETTES -->
-
-            <hr class="featurette-divider">
-
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                </div>
-                <div class="col-md-5">
-                    <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-                </div>
-            </div>
-
-            <hr class="featurette-divider">
-
-            <div class="row featurette">
-                <div class="col-md-5">
-                    <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-                </div>
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                </div>
-            </div>
-
-            <hr class="featurette-divider">
-
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                </div>
-                <div class="col-md-5">
-                    <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-                </div>
-            </div>
-
-            <hr class="featurette-divider">
-
-            <!-- /END THE FEATURETTES -->
-
 
             <!-- FOOTER -->
             <footer>
