@@ -59,17 +59,17 @@ body {
   top: -50%;
 }
 .e{
-    background: url('../img/carru.png') no-repeat;
+    background: url('../img/carru.png') no-repeat center 0%;
     background-size: cover;
 }
 
 .r{
-    background: url('../img/fan.jpg') no-repeat;
+    background: url('../img/fan.jpg') no-repeat center 0%;
     background-size: cover;
 }
 
 .d{
-    background: url('../img/the.jpg') no-repeat;
+    background: url('../img/the.jpg') no-repeat center 0%;
     background-size: cover;
 }
 
